@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF341E011A3D6FBF00025FCB /* ShakeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF341E001A3D6FBF00025FCB /* ShakeViewController.swift */; };
+		CF3D8A4C1A3ECF71007244B8 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3D8A4B1A3ECF71007244B8 /* AboutViewController.swift */; };
+		CF467A2D1A3C536400547B9B /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF467A2C1A3C536400547B9B /* AddViewController.swift */; };
+		CF467A2F1A3C53C000547B9B /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CF467A2E1A3C53C000547B9B /* icon.png */; };
+		CF48ED781A3B037700AC4D06 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF48ED771A3B037700AC4D06 /* DetailViewController.swift */; };
+		CF4C6E981A3B5085004DC711 /* AddCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4C6E971A3B5085004DC711 /* AddCell.swift */; };
+		CF4C6E9A1A3B511C004DC711 /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = CF4C6E991A3B511C004DC711 /* add.png */; };
+		CF5615E01A3C82E2006E33C4 /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5615DF1A3C82E2006E33C4 /* ListCell.swift */; };
 		CF868D381A3AE33D0020AA4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF868D371A3AE33D0020AA4E /* AppDelegate.swift */; };
 		CF868D3A1A3AE33D0020AA4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF868D391A3AE33D0020AA4E /* ViewController.swift */; };
 		CF868D3D1A3AE33D0020AA4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF868D3B1A3AE33D0020AA4E /* Main.storyboard */; };
@@ -26,6 +34,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CF341E001A3D6FBF00025FCB /* ShakeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShakeViewController.swift; sourceTree = "<group>"; };
+		CF3D8A4B1A3ECF71007244B8 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		CF467A2C1A3C536400547B9B /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		CF467A2E1A3C53C000547B9B /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		CF48ED771A3B037700AC4D06 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		CF4C6E971A3B5085004DC711 /* AddCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCell.swift; sourceTree = "<group>"; };
+		CF4C6E991A3B511C004DC711 /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add.png; sourceTree = "<group>"; };
+		CF5615DF1A3C82E2006E33C4 /* ListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
 		CF868D321A3AE33D0020AA4E /* 选择.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "选择.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF868D361A3AE33D0020AA4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF868D371A3AE33D0020AA4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +72,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CF479ACD1A3DA27F00B5F262 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CF868D391A3AE33D0020AA4E /* ViewController.swift */,
+				CF48ED771A3B037700AC4D06 /* DetailViewController.swift */,
+				CF467A2C1A3C536400547B9B /* AddViewController.swift */,
+				CF341E001A3D6FBF00025FCB /* ShakeViewController.swift */,
+				CF3D8A4B1A3ECF71007244B8 /* AboutViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		CF48ED761A3B02E400AC4D06 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CF5615DF1A3C82E2006E33C4 /* ListCell.swift */,
+				CF4C6E971A3B5085004DC711 /* AddCell.swift */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
 		CF868D291A3AE33D0020AA4E = {
 			isa = PBXGroup;
 			children = (
@@ -77,9 +114,10 @@
 		CF868D341A3AE33D0020AA4E /* 选择 */ = {
 			isa = PBXGroup;
 			children = (
-				CF868D371A3AE33D0020AA4E /* AppDelegate.swift */,
-				CF868D391A3AE33D0020AA4E /* ViewController.swift */,
+				CF479ACD1A3DA27F00B5F262 /* ViewController */,
+				CF48ED761A3B02E400AC4D06 /* Cell */,
 				CF868D3B1A3AE33D0020AA4E /* Main.storyboard */,
+				CF868D371A3AE33D0020AA4E /* AppDelegate.swift */,
 				CF868D3E1A3AE33D0020AA4E /* Images.xcassets */,
 				CF868D401A3AE33D0020AA4E /* LaunchScreen.xib */,
 				CF868D351A3AE33D0020AA4E /* Supporting Files */,
@@ -91,6 +129,8 @@
 			isa = PBXGroup;
 			children = (
 				CF868D361A3AE33D0020AA4E /* Info.plist */,
+				CF4C6E991A3B511C004DC711 /* add.png */,
+				CF467A2E1A3C53C000547B9B /* icon.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -193,8 +233,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF868D3D1A3AE33D0020AA4E /* Main.storyboard in Resources */,
+				CF467A2F1A3C53C000547B9B /* icon.png in Resources */,
 				CF868D421A3AE33D0020AA4E /* LaunchScreen.xib in Resources */,
 				CF868D3F1A3AE33D0020AA4E /* Images.xcassets in Resources */,
+				CF4C6E9A1A3B511C004DC711 /* add.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,7 +255,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF868D3A1A3AE33D0020AA4E /* ViewController.swift in Sources */,
+				CF341E011A3D6FBF00025FCB /* ShakeViewController.swift in Sources */,
+				CF467A2D1A3C536400547B9B /* AddViewController.swift in Sources */,
+				CF5615E01A3C82E2006E33C4 /* ListCell.swift in Sources */,
 				CF868D381A3AE33D0020AA4E /* AppDelegate.swift in Sources */,
+				CF48ED781A3B037700AC4D06 /* DetailViewController.swift in Sources */,
+				CF3D8A4C1A3ECF71007244B8 /* AboutViewController.swift in Sources */,
+				CF4C6E981A3B5085004DC711 /* AddCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +453,7 @@
 				CF868D531A3AE33E0020AA4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CF868D541A3AE33E0020AA4E /* Build configuration list for PBXNativeTarget "选择Tests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +462,7 @@
 				CF868D561A3AE33E0020AA4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
