@@ -52,7 +52,8 @@ class AboutViewController: UITableViewController {
 
         // Configure the cell...
         cell.textLabel?.text = String(indexPath.row)
-        //这个view能不能整体向下移动一下，上面被挡住了
+        //待完成：这个view整体向下移动一下，上面被挡住了
+        
         return cell
     }
     
